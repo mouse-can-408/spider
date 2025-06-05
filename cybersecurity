@@ -1,0 +1,22 @@
+# Public Documents
+site:tesla.com filetype:pdf
+site:tesla.com filetype:xlsx
+site:tesla.com filetype:docx
+
+# Login/Admin Pages
+site:tesla.com inurl:admin
+site:tesla.com intitle:"login"
+
+# Backup/Config Files
+site:tesla.com ext:bak | ext:config | ext:env
+
+# Exposed Logs/Errors
+site:tesla.com ext:log
+site:tesla.com "error in file"
+
+# Email and Contact Info
+site:tesla.com "@tesla.com"
+
+# Git Folders / Env Files
+site:tesla.com inurl:.git
+site:tesla.com inurl:.env
