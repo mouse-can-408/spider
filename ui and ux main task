@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pandora | Jewellery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <h1>Pandora</h1>
+      <ul>
+        <li>Home</li><li>Collection</li><li>About</li><li>Contact</li>
+      </ul>
+    </nav>
+    <div class="hero-text">
+      <h2>Elegance in Every Detail</h2>
+      <button>Explore Collection</button>
+    </div>
+  </header>
+</body>
+</html>
